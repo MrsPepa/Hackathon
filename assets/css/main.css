@@ -1,4 +1,32 @@
-#links .col-xs-12 {
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+#links {
 	background-color: black;
-	height: 25px;
+	height: 50px;
+	border-top: 5px solid #AAD500;
+}
+img {
+    padding-top: 2pc;
+}
+#search {
+
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+footer {
+	background-color: grey;
+	height: 510px;
 }
