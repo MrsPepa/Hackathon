@@ -1,20 +1,30 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
 a {
 	text-decoration: none;
 	color: white;
-	font-size: 15px;
-}
-#links {
-	background-color: black;
-	height: 50px;
-	border-top: 5px solid #AAD500;
-}
-#logo{
-	width:3em;
-	height: 5em;
+	font-size: 12px;
+	padding-right: 0.5em;
+	text-transform: uppercase;
+
 }
 
-#linksOne{
-	vertical-align-y:top;
+#links {
+	background-color: black;
+	height: 3em;
+	border-top: 5px solid #AAD500;
+}
+
+#logo{
+	width:2em;
+	height: 4em;
+}
+
+#links{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .img-fluid {
@@ -24,18 +34,22 @@ a {
 #search {
 
 }
+
 .stylish-input-group .input-group-addon{
     background: white !important; 
 }
+
 .stylish-input-group .form-control{
 	border-right:0; 
 	box-shadow:0 0 0; 
 	border-color:#ccc;
 }
+
 .stylish-input-group button{
     border:0;
     background:transparent;
 }
+
 footer {
 	background-color: grey;
 	height: 510px;
