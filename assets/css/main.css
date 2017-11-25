@@ -149,3 +149,24 @@ main{
 .imgSecciones:hover{
 	opacity: 0.8;
 }
+
+footer a {
+	text-decoration: none;
+	font-size: 12px;
+	padding-right: 0.5em;
+	text-transform: uppercase;
+}
+
+footer {
+	border-top: 0.3em solid #80BD00;
+	color: #6A6A6A;
+	background-color: #222222;
+	height: 510px;
+}
+footer h5 {
+	color: #6A6A6A;
+}
+footer h5:hover {
+	text-decoration: underline;
+	text-decoration-color: #6a6a6a; 
+}
