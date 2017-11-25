@@ -31,8 +31,12 @@ a {
     padding-top: 2pc;
 }
 
-#search {
+#searchContainer {
+	padding: 0.5em;
+}
 
+.form-control{
+	padding: 0;
 }
 
 .stylish-input-group .input-group-addon{
