@@ -188,9 +188,11 @@ footer {
 	background-color: #222222;
 	height: 510px;
 }
+
 footer h5 {
 	color: #6A6A6A;
 }
+
 footer h5:hover {
 	text-decoration: underline;
 	text-decoration-color: #6a6a6a; 
@@ -199,9 +201,24 @@ footer h5:hover {
 iframe {
 	height: 350px;
 	background-color: #ffffff !important; 
-	position: absolute;
+	position: fixed;
 	bottom: -0px;
 	right: 0;
 	border: 1px solid gray;
 	z-index: 99999;
-			}
+	display: none;
+}
+
+#chat-off {
+    background-color: #0078d7;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-weight: 500;
+    width: 300px;
+    height: 38px;
+    letter-spacing: 0.5px;
+    padding: 8px 8px 0 8px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
