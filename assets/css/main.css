@@ -8,9 +8,19 @@ a {
 	height: 50px;
 	border-top: 5px solid #AAD500;
 }
-img {
+#logo{
+	width:3em;
+	height: 5em;
+}
+
+#linksOne{
+	vertical-align-y:top;
+}
+
+.img-fluid {
     padding-top: 2pc;
 }
+
 #search {
 
 }
@@ -30,3 +40,4 @@ footer {
 	background-color: grey;
 	height: 510px;
 }
+
