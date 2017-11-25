@@ -1,61 +1,151 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.row.before, .row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+
+[class*="col-"]{
+  float: left;
+  min-height: 7px ;
+  padding: 12px;
+}
+/*
+fórmula para ancho de las columnas ((Ncol/12)*100)
+*/
+.col-1 {
+  width: 8.333333%;
+  border: 1px solid red;
+  height: 300px;
+} 
+
+.col-2 {
+  width: 16.666667%;
+} 
+
+.col-3 {
+  width: 25%;
+} 
+
+.col-4 { 
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+}
+
+.col-6 {
+  width: 50%;
+} 
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
 body{
 	font-family: 'Open Sans', sans-serif;
 }
-
-a {
-	text-decoration: none;
-	color: white;
-	font-size: 12px;
-	padding-right: 0.5em;
-	text-transform: uppercase;
-
-}
-
-#links {
-	background-color: black;
-	height: 3em;
-	border-top: 5px solid #AAD500;
-}
-
-#logo{
-	width:2em;
-	height: 4em;
+header{
+	height: 5em;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
 
 #links{
-    display: inline-block;
-    vertical-align: middle;
+	background-color: #000;
+	width: 100%;
+	height: 2.5em;
+	padding-top: 0.5em;
+
+}
+#links a{
+
+	text-decoration: none;
+	color: #FFF;
+	margin-right: 1em;
 }
 
-.img-fluid {
-    padding-top: 2pc;
+#links a:hover{
+	text-decoration: underline;
 }
 
-#searchContainer {
-	padding: 0.5em;
+#tienda{
+	margin-left: 10em;
 }
 
-.form-control{
-	padding: 0;
+#search{
+	background-color: #FFF;
+	width: 100%;
+	height: 2.5em;
 }
 
-.stylish-input-group .input-group-addon{
-    background: white !important; 
+#buscador{
+	margin-left: 10em;
+	margin-top: 1em;
+	width: 20em;
+
 }
 
-.stylish-input-group .form-control{
-	border-right:0; 
-	box-shadow:0 0 0; 
-	border-color:#ccc;
+#logo{
+	width: 4em;
+	height: 5em;
+	position: absolute;
+	margin-left: 1em;
 }
 
-.stylish-input-group button{
-    border:0;
-    background:transparent;
+main{
+	padding-top: 7em;
+	background-color: #EFEFEF;
+	width: 100%;
+	height: auto;
+	padding-left: 8em;
+	padding-right: 5em;
 }
 
-footer {
-	background-color: grey;
-	height: 510px;
+.imgSecciones{
+	width: 20em;
+	height: 15em;
+	margin-right: 3em;
+	margin-bottom: 2em;
+	border-radius: 0.5em;
+	opacity: 0.4;
 }
 
+.imgSecciones:hover{
+	opacity: 0.8;
+}
